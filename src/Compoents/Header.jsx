@@ -23,7 +23,6 @@ export const Header = ({isdark ,setdark}) => {
       email: "",
       password: "",
     });
-    console.log(menuRef);
     
 
      useEffect(() => {
