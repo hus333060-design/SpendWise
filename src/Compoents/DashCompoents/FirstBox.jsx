@@ -186,7 +186,7 @@ export const FirstBox = ({ income, payout }) => {
       {/* Cards */}
       <div className=" flex flex-col gap-2 lg:flex-row  p-2 ">
         {/* Card-1 */}
-        <div className=" bg-zinc-800 text-white dark:bg-zinc-700 p-2">
+        <div className=" bg-zinc-800 text-white dark:bg-zinc-700 p-2 flex-1">
           {/* Title */}
           <h1 className="text-2xl p-3">Your Protfolie</h1>
 
@@ -261,7 +261,7 @@ export const FirstBox = ({ income, payout }) => {
             </div>
           </section>
         </div>
-        <section className="flex-1 ">
+        <section className="flex-2">
           {/* Card=2 */}
           <CashFlow income={income} payout={payout} chartData={chartData} />
           <div id="live-stock">
@@ -269,7 +269,7 @@ export const FirstBox = ({ income, payout }) => {
           </div>
         </section>
         {/* Card-3 */}
-         <div className='px-3 py-4 flex flex-col gap-6  text-white bg-zinc-800 dark:bg-zinc-700 rounded-xl'>
+         <div className=' flex-3 px-3 py-4 flex flex-col gap-6  text-white bg-zinc-800 dark:bg-zinc-700 rounded-xl'>
         <OverView income={income} payout={payout} firestockData={firestockData}/>
         <TransactionHis firestockData={firestockData}/>
         </div>

@@ -15,7 +15,7 @@ import {
 
 export const CashFlow = ({income,payout,chartData}) => {
   return (
-    <div className="flex flex-col  bg-zinc-800 dark:bg-zinc-700 text-white p-5  mb-1 rounded-2xl">
+    <div className="flex flex-col  bg-zinc-800 dark:bg-zinc-700 text-white p-2  mb-1 rounded-2xl">
 
         
             <div className="flex flex-col gap-3 ">
@@ -24,11 +24,11 @@ export const CashFlow = ({income,payout,chartData}) => {
             </div>
 
             <div className="flex">
-              <ResponsiveContainer height={210}>
+              <ResponsiveContainer  height={210}>
                 <BarChart
                   layout="vertical"
                   data={chartData}
-                  margin={{ top: 5, right: 2, left: 20, bottom: 5 }}
+                  margin={{ top: 5, right: 12, left: -10, bottom: 5 }}
                 >
                   <CartesianGrid vertical={false} horizontal={false} />
                   <XAxis
