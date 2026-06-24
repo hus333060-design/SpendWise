@@ -269,7 +269,7 @@ export const FirstBox = ({ income, payout }) => {
           </div>
         </section>
         {/* Card-3 */}
-         <div className=' flex-3 px-3 py-4 flex flex-col gap-6  text-white bg-zinc-800 dark:bg-zinc-700 rounded-xl'>
+         <div className=' flex-1 px-3 py-4 flex flex-col gap-6  text-white bg-zinc-800 dark:bg-zinc-700 rounded-xl'>
         <OverView income={income} payout={payout} firestockData={firestockData}/>
         <TransactionHis firestockData={firestockData}/>
         </div>

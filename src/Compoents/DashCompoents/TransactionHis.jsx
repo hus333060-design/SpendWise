@@ -33,7 +33,7 @@ export const TransactionHis = ({ firestockData }) => {
   return (
     <>
       <h1 className="text-white text-2xl font-bold">Transaction Histroy</h1>
-      <div className="bg-zinc-900 rounded-xl overflow-hidden">
+      <div className="bg-zinc-900 rounded-xl overflow-hidden ">
         <div className="flex justify-between px-2 py-4 border-b border-zinc-700 text-gray-400 font-semibold">
           <p className="w-1/4">Date</p>
           <p className="w-1/4">Stock</p>
@@ -43,13 +43,13 @@ export const TransactionHis = ({ firestockData }) => {
         {transaction?.map((item, index) => (
           <div
             key={index}
-            className="flex justify-between items-center px-2 py-4  border-b border-zinc-800 hover:bg-zinc-800 transition"
+            className="flex justify-between items-center gap-4 px-2 py-4  border-b border-zinc-800 hover:bg-zinc-800 transition"
           >
             <p  className="w-1/4 text-white text-sm sm:text-lg">{item.currDay}</p>
 
             <p className="w-1/4 text-white  text-sm sm:text-lg ">{item.stockName}</p>
 
-            <p className=" md:w-1/4 mx-2 text-green-400 font-medium  text-sm sm:text-lg">{item.type}</p>
+            <p className=" md:w-1/4 mx-4 text-green-400 font-medium  text-sm sm:text-lg">{item.type}</p>
 
             <p className="w-1/4  text-white text-sm sm:text-lg">₹{item.Amount}</p>
           </div>

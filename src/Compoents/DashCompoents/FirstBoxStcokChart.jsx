@@ -109,8 +109,8 @@ export const FirstBoxStcokChart = ({ firestockData }) => {
     <div className="flex flex-col space-y-2 p-2 border rounded-xl">
       <h1  className="text-2xl font-bold  text-stone-900 dark:text-stone-300">Live Price</h1>
       {currprice.length > 0 && (
-          <ResponsiveContainer width="100%" height={220}>
-        <LineChart  data={currprice} margin={{top: 5, bottom: 5,left:-20 ,right:10}}>
+          <ResponsiveContainer width="100%" height={290}>
+        <LineChart  data={currprice} margin={{top: 15, bottom: 5,left:-15 ,right:10}}>
           <CartesianGrid vertical={false} horizontal={false} />
           <XAxis dataKey="day" />
           <YAxis />

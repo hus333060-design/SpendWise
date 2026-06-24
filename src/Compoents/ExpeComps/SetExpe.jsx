@@ -82,7 +82,7 @@ async function handleSubmit(e) {
   return (
     <section className="w-full max-w-lg mx-auto bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-50 border  dark:border-slate-500 rounded-3xl shadow-xl p-6 flex flex-col gap-6">
           <div className="flex items-center gap-3">
-            <span className="px-7 py-4 rounded-2xl bg-green-500 hover:scale-105 transition cursor-pointer" onClick={()=> history.back()}>
+            <span className="px-3 py-2 md:px-9 md:py-3 rounded-2xl bg-green-500 hover:scale-105 transition cursor-pointer" onClick={()=> history.back()}>
               <FiArrowLeft size={30} />
             </span>
             <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-300">Add Expences</h1>
