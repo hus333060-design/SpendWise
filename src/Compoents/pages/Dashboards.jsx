@@ -73,9 +73,9 @@ useEffect(() => {
   
   if (!user) {
     return (
-      <div className="text-center p-10">
+      <div className="text-center p-10  text-black dark:text-stone-100">
         
-        <h2 className="text-xl font-bold">Please login to add expenses</h2>
+        <h2 className="text-xl font-bold ">Please login to add expenses</h2>
         <p>You need an account to access this form.</p>
       </div>
     );

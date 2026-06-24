@@ -39,7 +39,7 @@ async function handleSumit(e){
  }
 
   return (
-   <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+   <div className="min-h-screen  flex items-center justify-center p-4">
    
       <div className="w-full max-w-md bg-white rounded-3xl shadow-xl p-8 ">
 
@@ -73,7 +73,7 @@ async function handleSumit(e){
               placeholder="₹ 10000"
               value={budget}
               onChange={(e) => setBudget(e.target.value)}
-              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 outline-none focus:border-green-500"
+              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 outline-none focus:border-green-500 text-stone-950 "
             />
           </div>
 
